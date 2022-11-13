@@ -1,0 +1,282 @@
+html {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    height: 100px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 22px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+
+.header__list {
+    display: flex;
+    
+}
+
+.list__item {
+    font-weight: 400;
+    margin-right: 30px;
+    list-style: none;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.list__link {
+    text-decoration: none;
+    color: #2F281E;
+    transition: .5s;
+}
+
+.header__list:hover .list__link {
+    filter: blur(5px);
+}
+
+.header__list:hover .list__link:hover {
+    font-size: 25px;
+    filter: blur(0px);
+    background-color: #FF9900;
+}
+
+.signin__btn {
+    margin-right: 14px;
+    background-color: #fff;
+    border: 1px solid #BCD0E5;
+}
+
+.signup__btn {
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+}
+
+.header__btn {
+    height: 46px;
+    width: 102px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+.burger__icon {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.main-screen {
+    margin-top: 50px;
+    height: 494px;
+}
+
+.main-screen__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-screen__title {
+    font-size: 44px;
+    max-width: 518px;
+    margin-bottom: 30px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-top: 83px;
+    color:#2F281E;
+
+}
+
+.main-screen__text {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 458px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    color:#544837;
+}
+
+.main-screen__btn {
+    height: 53px;
+    width: 175px;
+    background-color:#FF9900;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 56px;
+    cursor: pointer;
+}
+
+.main-screen__video {
+    color: #FF9900;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.main-screen__video::before {
+    content: url('../img/main-screen-video.png');
+    height: 17px;
+    width: 20px;
+    color:#FF9900;
+    margin-right: 8px;
+}
+
+
+
+
+.feature {
+    margin-top: 111px;
+    background: url('../img/feature-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+
+.feature__title {
+    font-size: 36px;
+    margin-bottom: 46px;
+    max-width: 539px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color:#2F281E
+}
+
+.feature__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__card {
+    width: 240px;
+    height: 178px;
+}
+
+.feature__card-img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.feature__card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color:#2F281E;
+    ;
+}
+
+.feture__card-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color:#544837;
+}
+
+.feature__btn {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FF9900;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    height: 53px;
+    width: 175px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.design {
+    height: 574px;
+    margin-top: 120px;
+}
+
+.design__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design__subtitle {
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #544837;
+    line-height: 24px;
+}
+
+.design__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 22px;
+}
+
+.design__text {
+    margin-bottom: 30px;
+    max-width: 486px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.design__card-title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.design__card-text {
+    margin-bottom: 25px;
+    max-width: 486px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+}
